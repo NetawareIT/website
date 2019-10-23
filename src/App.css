@@ -20,3 +20,9 @@
 .App-link {
   color: #09d3ac;
 }
+
+
+
+.bg-blue-Netaware{
+background: linear-gradient(RGB(10,10,100), RGBA(10,10,100, 0.8));
+}
