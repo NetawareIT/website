@@ -15,6 +15,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: Montserrat, sans-serif;
 }
 
 .App-link {
@@ -24,5 +25,9 @@
 
 
 .bg-blue-Netaware{
-background: linear-gradient(RGB(10,10,100), RGBA(10,10,100, 0.8));
+background: linear-gradient(RGB(10,10,100), RGBA(10,10,100, 0.9));
+}
+
+.netaware-pointer{
+  cursor: pointer;
 }
