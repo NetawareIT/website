@@ -1,6 +1,6 @@
 {
-  "name": "netaware_website",
-  "version": "0.1.0",
+  "name": "netaware",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "react": "^16.10.1",
