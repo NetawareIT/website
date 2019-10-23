@@ -1,17 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
+
+import { Route, Switch, Link, BrowserRouter as Router } from 'react-router-dom';
+
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css'
-import 'bootstrap/dist/js/bootstrap.bundle.min'
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 import Header from './components/Header';
+
+import Index from './pages/Index';
 
 function App() {
   return (
     <div className="App">
-      <Header></Header>
-      <div >content</div>
-      
+      <Header />
+      <Router>
+        <Switch>
+          <Route exact path="/" component={Index}/>
+        </Switch>
+      </Router>
     </div>
   );
 }
