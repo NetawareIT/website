@@ -12,9 +12,15 @@ import Header from './components/Header';
 import Index from './pages/Index';
 
 function App() {
+ 
   return (
+    
     <div className="App">
-      <Header />
+       <Header />
+      <video autoPlay muted loop id="myVideo">
+        <source src="/Office Background Video HD.mp4" type="video/mp4" />
+      </video>
+     
       <Router>
         <Switch>
           <Route exact path="/" component={Index}/>

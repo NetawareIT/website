@@ -6,7 +6,7 @@ import { faDesktop } from '@fortawesome/free-solid-svg-icons';
 import './index.css'
 
 export default () => (
-    <div className="w-100 h-100 d-flex  align-content-around flex-wrap p-2 bg-blue-Netaware">
+    <div className="w-100 h-100 d-flex  align-content-around flex-wrap p-2 ">
         <div className="card prod_card" >
             <img src="./logo.png" className="card-img-top" alt="..." />
             <div className="card-body">

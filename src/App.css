@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+ 
 }
 
 .App-logo {
@@ -25,9 +26,18 @@
 
 
 .bg-blue-Netaware{
-background: linear-gradient(RGB(10,10,100), RGBA(10,10,100, 0.9));
+  background: linear-gradient(RGB(10,10,100), RGBA(40,40,100, 0.7));
 }
 
 .netaware-pointer{
   cursor: pointer;
+}
+
+#myVideo {
+  z-index:-1;
+  position: fixed;
+  right: 0;
+  top: 0;
+  min-width: 100%;
+  /* min-height: 100%; */
 }
